@@ -19,4 +19,8 @@ inoremap jj <Esc>
 set shellslash
 set expandtab "タブ入力を複数の空白入力に置き換える
 set tabstop=2 "画面上でタブ文字が占める幅
-
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
